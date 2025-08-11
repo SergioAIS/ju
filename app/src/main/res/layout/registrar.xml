@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/inicio_salar">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"></LinearLayout>
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Registro de Usuario"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="¡Ven y únete a nuestra comunidad!"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="325dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:orientation="horizontal"></LinearLayout>
+
+            <EditText
+                android:id="@+id/editTextText8"
+                android:layout_width="383dp"
+                android:layout_height="34dp"
+                android:background="#6CA9C2"
+                android:ems="10"
+                android:inputType="text"
+                android:paddingStart="20sp"
+                android:text="Nombre Completo" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:orientation="horizontal"></LinearLayout>
+
+            <EditText
+                android:id="@+id/editTextText9"
+                android:layout_width="383dp"
+                android:layout_height="34dp"
+                android:background="#6CA9C2"
+                android:ems="10"
+                android:inputType="text"
+                android:text="Apellidos"
+                android:paddingStart="20sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/editTextText10"
+                android:layout_width="383dp"
+                android:layout_height="34dp"
+                android:background="#6CA9C2"
+                android:ems="10"
+                android:inputType="text"
+                android:text="Correo Electrónico"
+                android:paddingStart="20sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:orientation="horizontal"></LinearLayout>
+
+            <EditText
+                android:id="@+id/editTextText11"
+                android:layout_width="383dp"
+                android:layout_height="34dp"
+                android:background="#6CA9C2"
+                android:ems="10"
+                android:inputType="text"
+                android:text="Contraseña"
+                android:paddingStart="20sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/editTextText12"
+                android:layout_width="383dp"
+                android:layout_height="34dp"
+                android:background="#6CA9C2"
+                android:ems="10"
+                android:inputType="text"
+                android:text="Confirma tu Contraseña"
+                android:paddingStart="20sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="195dp"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="REGISTRAR"
+                android:backgroundTint="#9F9D92"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:text="¿Ya tienes cuenta?"
+                android:textSize="10dp" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
